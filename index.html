@@ -23,14 +23,13 @@
         <a href="#networks"> شبكاتنا </a>
         <a href="#follow"> تابعنا </a>
     </header>
-    
+    <div id="header">
+
+    </div>
 
     
     <main id="main">
         <img src="./bg.png" class="img-fluid w-100" alt="Responsive image">
-        <div id="up">
-            ⩔
-        </div>
     </main>
     
     <h4> مميزاتنا </h4>
@@ -195,19 +194,6 @@
             prevScrollPosition = currentScrollPosition;
 
         }
-
-        $(function () {
-            var x = 0
-            setInterval(() => {
-                if(x == 1) {
-                    $("main div").css("bottom","10px");
-                    x=0
-                } else {
-                    $("main div").css("bottom","1px");
-                    x=1
-                }
-            }, 500); 
-        })
     </script>
 
     
